@@ -8,8 +8,8 @@ const tasksMock={tasks:[
 ]};
 
 async function getTasks(options) {
-  // return fetch('/tasks', options).then((res) => res.json());
-  return Promise.resolve( tasksMock);
+  return fetch('/tasks', options).then((res) => res.json());
+  // return Promise.resolve( tasksMock);
 }
 
 function updateTask(tasks, id, updatedTask) {
