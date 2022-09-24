@@ -11,9 +11,6 @@ https://storybook.js.org/tutorials/ui-testing-handbook/react/en/visual-testing/
 
 
 
-npx chromatic --project-token=<project-token>
-npx chromatic --project-token=2fb09067b4ff
-
 npx chromatic --project-token=8b40f2a833e3
 
 
