@@ -31,3 +31,10 @@ npx msw init public/
 
 ##### Storybook addons to manage data & state
 https://storybook.js.org/blog/storybook-addons-to-manage-data-state/
+
+#### Тестирование взаимодействия компонентов
+
+https://storybook.js.org/tutorials/ui-testing-handbook/react/en/interaction-testing/
+
+
+yarn add -D @storybook/testing-library @storybook/jest @storybook/addon-interactions @storybook/test-runner
