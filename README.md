@@ -27,3 +27,7 @@ yarn add -D msw msw-storybook-addon
 Then, generate a new service worker in your public folder.
 
 npx msw init public/
+
+
+##### Storybook addons to manage data & state
+https://storybook.js.org/blog/storybook-addons-to-manage-data-state/
